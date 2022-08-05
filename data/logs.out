@@ -1,0 +1,25 @@
+2022-08-04 21:44:05.240 | INFO     | server:startup_event:123 - Setup completed
+2022-08-04 21:45:54.366 | INFO     | server:predict:170 - {
+    "timestamp": 1659667553.339678,
+    "request": {
+        "source": "string",
+        "url": "string",
+        "title": "string",
+        "description": "Example string"
+    },
+    "prediction": {
+        "scores": {
+            "Business": 0.08690474691789314,
+            "Entertainment": 0.24972528829028418,
+            "Health": 0.040927499974797665,
+            "Music Feeds": 0.00834975460852598,
+            "Sci/Tech": 0.22710287777664442,
+            "Software and Developement": 0.021533657740694667,
+            "Sports": 0.3490817971217565,
+            "Toons": 0.016374377569403346
+        },
+        "label": "Sports"
+    },
+    "latency": "1025 ms"
+}
+2022-08-04 21:46:15.097 | INFO     | server:shutdown_event:135 - Shutting down application
